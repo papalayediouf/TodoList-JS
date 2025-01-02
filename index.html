@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo-List JavaScript</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+  <!-- Conteneur principal -->
+  <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-lg space-y-6">
+    <!-- Titre -->
+    <h1 class="text-4xl font-extrabold text-center text-blue-600">
+      Ma To-Do List
+    </h1>
+
+    <!-- Barre de recherche -->
+    <div class="bg-gray-50 p-4 rounded-lg shadow-md">
+      <h2 class="text-lg font-semibold text-gray-700 mb-2">Rechercher une tâche</h2>
+      <input 
+        id="filter-input"
+        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" 
+        type="text" 
+        placeholder="Rechercher par nom ou description..."
+      >
+    </div>
+
+    <!-- Formulaire d'ajout -->
+    <div class="bg-gray-50 p-4 rounded-lg shadow-md">
+      <h2 class="text-lg font-semibold text-gray-700 mb-2">Ajouter une nouvelle tâche</h2>
+      <div class="space-y-4">
+        <!-- Champ pour le nom de la tache -->
+        <input 
+          id="task-name"
+          class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" 
+          type="text" 
+          placeholder="Nom de la tâche"
+        >
+        
+        <!-- Champ pour la description de la tache -->
+        <input 
+          id="task-desc"
+          class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" 
+          type="text" 
+          placeholder="Description de la tâche"
+        >
+        
+        <!-- Bouton pour ajouter une tache -->
+        <button 
+          id="add-task"
+          class="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition">
+          Ajouter la tâche
+        </button>
+      </div>
+    </div>
+
+    <!-- Liste des taches -->
+    <div class="bg-gray-50 p-4 rounded-lg shadow-md">
+      <h2 class="text-lg font-semibold text-gray-700 mb-2">Liste des tâches</h2>
+      <ul id="task-list" class="space-y-4">
+        <!-- Les taches -->
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
