@@ -1,7 +1,8 @@
-
 # 📋 Todo-List JavaScript
 
 Une application de **Todo-List dynamique** construite avec **JavaScript**, **Tailwind CSS**, et **LocalStorage** pour gérer vos tâches facilement et les sauvegarder même après un rechargement de la page.
+
+![Image de la Todo-List](assets/todo.png)
 
 ---
 
@@ -33,4 +34,4 @@ Une application de **Todo-List dynamique** construite avec **JavaScript**, **Tai
 
 1. Clonez le projet :
    ```bash
-   git clone 
+   git clone <URL de ton dépôt>
