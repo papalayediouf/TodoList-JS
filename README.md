@@ -6,6 +6,12 @@ Une application de **Todo-List dynamique** construite avec **JavaScript**, **Tai
 
 ---
 
+## 👨‍💻 Auteur
+
+- **Papalayediouf** - *Développeur principal* - [Papalayediouf](https://github.com/papalayediouf)
+
+---
+
 ## 🌟 Fonctionnalités
 
 - **Ajouter une tâche** : Ajoutez un nom et une description à votre tâche.
@@ -34,4 +40,4 @@ Une application de **Todo-List dynamique** construite avec **JavaScript**, **Tai
 
 1. Clonez le projet :
    ```bash
-   git clone <URL de ton dépôt>
+   git clone https://github.com/papalayediouf/TodoList-JS.git
